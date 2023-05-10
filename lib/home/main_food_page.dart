@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:poslasticarnica/widgets/big_text.dart';
+import 'package:poslasticarnica/widgets/small_text.dart';
 
 class MainFoodPage extends StatefulWidget {
   const MainFoodPage({Key? key}) : super(key: key);
@@ -26,7 +27,12 @@ class _MainFoodPageState extends State<MainFoodPage> {
                   Column(
                     children: [
                       BigText(text: "Srbija", color: Colors.blue,),
-                      Text("City")
+                      Row(
+                        children: [
+                          SmallText(text: "Beograd"),
+                          Icon(Icons.arrow_drop_down_rounded)
+                        ],
+                      )
 
                     ],
                   ),

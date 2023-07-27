@@ -1,10 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:poslasticarnica/home/food_page_body.dart';
+import 'package:poslasticarnica/pages/home/food_page_body.dart';
+import 'package:poslasticarnica/utils/dimensions.dart';
 import 'package:poslasticarnica/widgets/big_text.dart';
 import 'package:poslasticarnica/widgets/small_text.dart';
 
-import '../utils/dimensions.dart';
+
 
 class MainFoodPage extends StatefulWidget {
   const MainFoodPage({Key? key}) : super(key: key);
